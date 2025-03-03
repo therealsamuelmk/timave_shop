@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+    max-width: 100%;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-size: 20px;
+    margin-right: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F4730B;
+    color: white;
+    border:none;
+    width:100%;
+}
+.btn-2 {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e50914;
+    color: white;
+    border:none;
+    width:100%;
+}
+.ride-option{
+    display: flex;
+    flex-direction: column;
+}
+.bike-option{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 0 2px 2px #F4730B; /* Green box shadow */
+}
+.bike-option img{
+    height: 80px;
+    width: 80px;
+}
+.car-option{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 0 2px 2px #F4730B; /* Green box shadow */
+}
+.car-option img{
+    height: 80px;
+    width: 80px;
+}
+.request-ride{
+    margin-right: auto;
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    background-color:  #F4730B;
+}
+.ride-detail{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    flex: 2;
+}
+.request-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+.money{
+    font-size: larger;
+    font-weight: bold;
+}
+#googleMap {
+    height: 500px; /* Adjust as needed */
+    width: 100%;
+    margin-bottom: 20px;
+}
+#output {
+    font-size: 16px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

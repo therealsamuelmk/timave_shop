@@ -1,0 +1,24 @@
+
+.file-input {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.docs {
+    display: none;
+}
+
+.label {
+    background-color: #009579;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#fileInfo {
+    margin-top: 20px;
+    text-align: center;
+}

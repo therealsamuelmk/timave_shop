@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@media only screen and (max-width:768px){
+    .error{
+        display:none;
+    }
+    body {
+        background-image: -webkit-linear-gradient(#ED950B,#F4730B,#F94001);
+        margin:0;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+      }
+      .mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-top: 5%;
+      }
+      .redirect-btn{
+        border: none;
+        border-radius: 10px;
+        width: 100px;
+        height:30px;
+      }
+      .png1 {
+        width: 120px;
+        height: 120px;
+      }
+      .details{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+        align-content: center;
+      }
+      .link{
+        text-decoration: none;
+        color:white;
+      }
+      .desc-text{
+        text-align: justify;
+      }
+      .social-links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+      }
+      .social-button{
+        text-decoration: none;
+        color:white;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+      }
+      h1 {
+        color: white;
+        font-size: 40px;
+        padding-top: 10px;
+        text-align: center;
+      }
+      
+      h6 {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+      }
+      
+      h2 {
+        margin-left: 10px;
+        color: #6f7180;
+      }
+      h3 {
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+      }
+      a{
+        text-decoration: none;
+        color:white;
+      }
+}
+@media only screen and (min-width:769px)
+{
+    main{
+        display: none;
+    }
+    .error{
+        text-align: center;
+        font-size: xx-large;
+        margin-top:100%
+    }
+}
+  
